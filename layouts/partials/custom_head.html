@@ -1,0 +1,50 @@
+<!-- Little House Electric: brand colours and small style touches.
+     Place this file at layouts/partials/custom_head.html in your site
+     (it replaces the example site's version). If you added other tags to
+     that file, merge them in here. -->
+
+<!-- Favicon (put favicon.svg in your site's static/ folder) -->
+<link rel="icon" type="image/svg+xml" href="{{ "favicon.svg" | relURL }}">
+
+<style>
+  :root {
+    /* Cover / landing area: black text and logo on the light background image */
+    --cover-text-color: #111111 !important;
+    --cover-title-and-description-guard-bg-color: rgba(250, 246, 236, 0.75) !important;
+    --cover-title-text-shadow: rgba(250, 246, 236, 0.9) 0px 0px 8px !important;
+
+    /* Landing buttons: electric yellow with black text, inverted on hover */
+    --highlight: #F5B700 !important;
+    --highlight-contrast: #111111 !important;
+    --highlight-inverse: #111111 !important;
+    --highlight-inverse-contrast: #F5B700 !important;
+
+    /* Menu and link hover/active colour (deep amber, readable on both section colours) */
+    --sticky-menu-text-color: #B07000 !important;
+
+    /* Light sections: warm cream with near-black text */
+    --section-light-text-color: #1E2226 !important;
+    --section-light-bg-color: #F6F1E7 !important;
+
+    /* Dark sections: charcoal with cream text */
+    --section-dark-text-color: #F6F1E7 !important;
+    --section-dark-bg-color: #1C2024 !important;
+
+    --section-uni-quote: inherit !important;
+    --section-uni-code-bg-color: #E8E1D2 !important;
+
+    /* Footer */
+    --footer-color-background: #111315 !important;
+    --footer-color: #CFC9BC !important;
+  }
+
+  /* Pull quotes: yellow bar, same colour as the surrounding text */
+  blockquote {
+    color: inherit;
+    border-left: 4px solid #F5B700;
+  }
+
+  /* Yellow text selection */
+  ::selection { background: #F5B700; color: #111111; }
+  ::-moz-selection { background: #F5B700; color: #111111; }
+</style>
