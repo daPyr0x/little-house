@@ -5,7 +5,7 @@ header_image: "images/little-house-electric-bg.webp"
 # When set true, uses video from custom_header_video.html partial, instead of header_image
 header_use_video: false
 #
-header_logo: "images/chef-hat.png"
+header_logo: "images/little-house-logo-black-transparent.webp"
 #
 # Headers are safeHTML, you can use HTML tags such as b,i,u,br
 header_headline: "Little House Electric"
